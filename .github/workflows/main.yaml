@@ -20,7 +20,7 @@ jobs:
           repository: ${{ secrets.repository }}
           image:  azure-vote-front
           folder: azure-vote
-          branch: master
+          branch: main
           tag: ${{ github.sha }}
       - name: Azure login
         id: login
